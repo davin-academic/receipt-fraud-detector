@@ -1,0 +1,9 @@
+path: data/stage_02/dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: clean
+  1: copy_move

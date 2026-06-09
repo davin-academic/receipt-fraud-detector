@@ -1,0 +1,6 @@
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+app/uploads/tmp/*
+app/uploads/saved/*

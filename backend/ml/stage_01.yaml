@@ -1,0 +1,10 @@
+path: data/stage_01/receipt_dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: receipt 
+  1: date
+  2: total_sum
+  3: vat
