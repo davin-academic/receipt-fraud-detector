@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#6366F1"></stop>
+      <stop offset="100%" stop-color="#06B6D4"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#0F172A"></rect>
+
+  <!-- Receipt shape -->
+  <path d="M20 12H44V52L40 48L36 52L32 48L28 52L24 48L20 52V12Z" stroke="url(#grad)" stroke-width="2.5" fill="none"></path>
+
+  <!-- Lines (receipt text) -->
+  <line x1="24" y1="20" x2="40" y2="20" stroke="url(#grad)" stroke-width="2"></line>
+  <line x1="24" y1="26" x2="38" y2="26" stroke="url(#grad)" stroke-width="2"></line>
+  <line x1="24" y1="32" x2="36" y2="32" stroke="url(#grad)" stroke-width="2"></line>
+
+  <!-- AI dot -->
+  <circle cx="42" cy="42" r="3" fill="#06B6D4"></circle>
+</svg>
