@@ -22,7 +22,7 @@ import time
 from pathlib import Path
 
 APP_DIR = Path(__file__).resolve().parent  # .../backend/app
-DEFAULT_IMAGES_DIR = APP_DIR.parent / "stage_01_inference" / "stage_01_images" / "test"
+DEFAULT_IMAGES_DIR = APP_DIR / "stage_01_inference" / "stage_01_images" / "test"
 
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("--cpu", action="store_true", help="Force CPU even if a GPU is available")
